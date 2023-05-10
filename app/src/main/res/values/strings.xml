@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CitySystem</string>
+    <string name="logo_name">Get A Way</string>
+    <string name="slogan_name">We will help you find your way!</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="forgot">Forget Password?</string>
+    <string name="newUser">Are you new here? Login now</string>
+    <string name="signUp">SignUp</string>
+    <string name="fullName">Full Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="location">Address</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">Terms and Condition</string>
+    <string name="already_user">Already have an account? Login now</string>
+    <string name="registered_emailid">Please enter your Registered Email id below:</string>
+    <string name="back">Back</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="reset_psw">Reset Password</string>
+    <string name="new_password">New Password</string>
+
+    
+</resources>

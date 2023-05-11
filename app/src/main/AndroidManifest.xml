@@ -21,6 +21,7 @@
         <activity android:name=".User.UserDashboard"></activity>
         <activity android:name=".User.UserLogin"/>
         <activity android:name=".User.UserSignup"/>
+        <activity android:name=".User.Category"/>
     </application>
 
 </manifest>

@@ -24,6 +24,15 @@ public class UserDashboard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        LinearLayout category= findViewById(R.id.category);
+        category.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(UserDashboard.this,Category.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 }

@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import np.edu.kathford.citysystem.Location.MapImplementation;
 import np.edu.kathford.citysystem.R;
 
 public class UserDashboard extends AppCompatActivity {
@@ -30,6 +31,13 @@ public class UserDashboard extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(UserDashboard.this,Category.class);
                 startActivity(intent);
+            }
+        });
+        LinearLayout showMap = findViewById(R.id.showMapLinear);
+        showMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(UserDashboard.this, MapImplementation.class);
             }
         });
 
